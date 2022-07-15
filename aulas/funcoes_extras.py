@@ -12,3 +12,12 @@ print("Bom dia {:20} Tudo bem?" .format(nome))
 # se quiser substituir os espaços por algum caracter use {:=20}, e para alinhar use < para a variavel ficar a esquerda dos caracteres, > para a direita e ^ para centralizar
 
 print("Bom dia {:=^20} Tudo bem?" .format(nome))
+
+# para criar uma lista tem que escrever uma sequencia entre []
+
+lista = [aluno1, aluno2, aluno3]  # <<<<<<< isso é considerado uma lista
+
+# se colocar 3 aspas duplas vai transformar tudo em texto até fechar as 3 aspas duplas dnv
+print("""aaaaaaaaaaaaaaaaaaaaaaaaaa
+print("LOUCO")  kkkkkkkk codigos
+if sla oq""")
