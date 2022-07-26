@@ -5,12 +5,10 @@ num = int(input('>>>  '))
 print('Okay agora digite a base de conversão do número')
 um = input('1- binario\n2- octal\n3- hexadecimal\n>>>  ')
 if um == '1':
-    num_bin_list = ""
-    resto = 0
+    print(f'{num} convertido para binário fica: {bin(num)}')
 
-    while num > 0:
-        resto = num%2
-        num = num//2
-        num_bin_list += str(resto)
+elif um == '2':
+    print(f'{num} convertido para octal fica: {oct(num)}')
 
-    print(''.join(list(reversed(num_bin_list))))
+elif um == '3':
+    print(f'{num} convertido para Hexadecimal fica: {hex(num)}')

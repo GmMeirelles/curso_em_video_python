@@ -6,8 +6,7 @@ print('(obs: náo use virgulas ou letras apenas o numero ex: 1250)')
 sal = int(input('Salário: '))
 casa = int(input('Preço da casa: '))
 anos = int(input('Anos de pagamento: '))
-am = anos*12
-p = am/casa
+p = (anos*12)/casa
 
 if p <= sal*0.3:
     print(f'Desculpe mas a parcela da casa seria em torno de R${p} por mes oque pode significar que o senhor(a) tenha problemas ao pagar')
