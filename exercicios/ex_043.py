@@ -5,7 +5,7 @@ p = float(input('PESO: '))
 a = float(input('ALTURA: '))
 imc = p/(a**2)
 
-print(f'IMC: {imc}')
+print(f'IMC: {imc:.2f}')
 if imc < 18.5:
     print('Peso abaixo da média')
 
