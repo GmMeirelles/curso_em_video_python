@@ -2,5 +2,4 @@
 
 number1 = int(input('HEY NIGGA! SAY ME ONE NUMBER BRO: '))
 number2 = int(input('GOOD BOY BRO, NOW SAY ME ANOTHER NUMBER PLEASE: '))
-solve = number1 + number2
-print('OH YEAH NIGGA THE SOLVE IS {} BANANAS IN YOUR ASS HAHAHAHAHA' .format(solve))
+print(f'OH YEAH NIGGA THE SOLVE IS {number1 + number2} BANANAS IN YOUR ASS HAHAHAHAHA')
