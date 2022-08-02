@@ -15,7 +15,7 @@ print("Bom dia {:=^20} Tudo bem?" .format(nome))
 
 # para criar uma lista tem que escrever uma sequencia entre []
 
-lista = [aluno1, aluno2, aluno3]  # <<<<<<< isso é considerado uma lista
+lista = ['aluno1', 'aluno2', 'aluno3']  # <<<<<<< isso é considerado uma lista
 
 # se colocar 3 aspas duplas vai transformar tudo em texto até fechar as 3 aspas duplas dnv
 print("""aaaaaaaaaaaaaaaaaaaaaaaaaa
