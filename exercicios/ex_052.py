@@ -15,4 +15,3 @@ if total == 2:
 
 elif total > 2 or total < 2:
     print(f'Oque faz o número {num1} não ser Primo')
-
