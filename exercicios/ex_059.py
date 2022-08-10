@@ -24,8 +24,10 @@ while escolha in '1, 2, 3, 4, 5':
     elif escolha == '3':
         if n1 > n2:
             print(f'{n1} é o maior número')
+            exit()
         else:
             print(f'{n2} é o maior número')
+            exit()
 
     elif escolha == '4':
         n1 = int(input('Digite um valor: '))
@@ -38,17 +40,4 @@ while escolha in '1, 2, 3, 4, 5':
 
 print('Escolha Invalida')
 escolha = str(input('Escolha entre 1 e 5: '))
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-        # print(f'''A soma de {n1} e {n2} é igual a
-        # >>> {n1+n2} ''')
     
