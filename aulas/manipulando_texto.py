@@ -8,7 +8,7 @@ frase2 = '   Olá mundo, Tudo bem?     '
 print(frase[9])
 print(frase[9:15])
 print(frase[1:30:2])
-# pode ler se frase[começo:fim:pulando 2 em 2]
+# pode ler-se frase[começo:fim:pulando 2 em 2]
 print(frase[:3])
 print(frase[11:])
 print('-----------------------------------------------')

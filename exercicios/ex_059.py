@@ -10,11 +10,11 @@ print('''Perfeito agora escolha entre
 [5] sair do programa''')
 escolha = str(input('>>>  '))
 
-while escolha in '1, 2, 3, 4, 5':
+while escolha in '1, 2, 3, 4, 5':                       # erro de repetição infinita, pois ele vai ficar executando toda vez que tiver 1 2 3 4 ou 5 na escolha
     if escolha == '1':
         print(f'''A soma de {n1} e {n2} é igual a
         >>> {n1+n2} ''')
-        exit()
+        exit()                  # arrumei colocando exit nos ifs para parar o while/programa
 
     elif escolha == '2':
         print(f'''A multiplicação de {n1} e {n2} é igual a
